@@ -16,12 +16,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+img{
+    display: block;
+}
+/* .padre{
+    display: flex;
+    flex-direction: column;
+} */
 
 .barra-top{
     display: flex;
     justify-content: end;
     width: 100%;
-    padding: 0 5px;
+    padding: 10px 5px;
+    background-color: var(--black);
 }
 .btn{
     background-color: var(--light-grey);
@@ -30,3 +38,30 @@ body{
     color: white;
     border: none;
 }
+.card{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+.contenitore-img{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+.contenitore-nome{
+    background-color: var(--light-grey);
+    position: absolute;
+    padding: 5px 2px;
+    bottom: 0;
+}
+
+/* .nav-down{
+    width: 100%;
+    height: 30%;
+    background-color: var(--footer-grey);
+} */
