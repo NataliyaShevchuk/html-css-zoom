@@ -75,12 +75,14 @@ img{
     flex-shrink: 0;
 }
 .sotto-container{
-    /* border: 0;
-    background-color: transparent; */
+    border: 0;
+    background-color: transparent;
     color: white;
     padding: 0;
     line-height: 4rem;
     cursor: pointer;
-    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    /* font-size: large; */
 }
 
