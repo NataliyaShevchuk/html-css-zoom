@@ -21,7 +21,7 @@ img{
 }
 .genitore{
     height: 100vh;
-    background-color: rosybrown;
+    background-color: var(--black);
     display: flex;
     flex-direction: column;
 }
@@ -69,28 +69,53 @@ img{
     filter: opacity(0.5);
     font-size: .5rem;
 }
-
-.bottom-nav{
-    background-color: var(--footer-grey);
-    flex-shrink: 0;
+footer{
+    height: 65px ; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--footer-grey)
 }
-.btn-bottom{
-    border: 0;
-    background-color: transparent;
+
+footer button{
     color: white;
-    padding: .5rem;
-    cursor: pointer;
-    font-size: large;
+    background-color:transparent;
+    border: none;
+    padding: 0 5px;
 }
-
-.sotto-container {
+.footer-sx, .footer-center-cont{
     display: flex;
 }
-.pecetta{
-    padding-top: 25px;
-    padding-left: 7px;
+footer i{
+    font-size: x-large;
+    padding: 5px 10px;
 }
-
-.flex-sinistra{
-    justify-content: flex-start;
+.fa{
+    font-size: medium;
+    padding: 15px 5px
+}
+.pec{
+    font-size: medium;
+    padding: 15px 5px
+}
+.green{
+    color: var(--verde);
+}
+footer h6{
+    font-size: 10px;
+    font-weight: 400;
+}
+.footer-dx button{
+    height: 100%;
+    color: var(--red);
+    font-size: medium;
+}
+.footer-dx{
+    background-color: var(--end-grey);
+    height: 65px ; 
+    width: 100px;
+    text-align: center;
+}
+.verde{
+    color: var(--verde);
 }
