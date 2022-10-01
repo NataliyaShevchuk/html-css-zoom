@@ -74,15 +74,23 @@ img{
     background-color: var(--footer-grey);
     flex-shrink: 0;
 }
-.sotto-container{
+.btn-bottom{
     border: 0;
     background-color: transparent;
     color: white;
-    padding: 0;
-    line-height: 4rem;
+    padding: .5rem;
     cursor: pointer;
-    display: flex;
-    flex-wrap: wrap;
-    /* font-size: large; */
+    font-size: large;
 }
 
+.sotto-container {
+    display: flex;
+}
+.pecetta{
+    padding-top: 25px;
+    padding-left: 7px;
+}
+
+.flex-sinistra{
+    justify-content: flex-start;
+}
